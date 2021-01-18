@@ -29,7 +29,7 @@ namespace ServerGame
             ApplicationDBContext.SetDBOptions(Configuration["DataBaseType"], Configuration.GetConnectionString(nameof(ApplicationDBContext)));
 
             TimeSpan timeToPersistGamesResult = string.IsNullOrEmpty(Configuration["TimeToPersistGamesResult"]) ? TimeSpan.FromMinutes(5) : TimeSpan.Parse(Configuration["TimeToPersistGamesResult"]);
-            TimeSpan timeToAttLeaderboadsGames = string.IsNullOrEmpty(Configuration["TimeToAttLeaderboadsGames"]) ? TimeSpan.FromMinutes(5) : TimeSpan.Parse(Configuration["TimeToAttLeaderboadsGames"]);
+            TimeSpan timeToAttLeaderboadsGames = string.IsNullOrEmpty(Configuration["TimeToAttLeaderboardsGames"]) ? TimeSpan.FromMinutes(5) : TimeSpan.Parse(Configuration["TimeToAttLeaderboardsGames"]);
             MemoryDBGame.Instance.SetTimeInterval(timeToPersistGamesResult);
             MemoryDBLeaderboard.Instance.SetTimeInterval(timeToAttLeaderboadsGames);
 
