@@ -53,4 +53,4 @@ Aqui será informado o intervalo de tempo que os Leaderboards armazenados na mem
  ``` dotnet run ```
 
 
-# IMPORTANTE: Quando qualquer outro banco que não seja o padrão for utilizado, executar a migração antes de rodar o projeto.
+## IMPORTANTE: Quando qualquer outro banco que não seja o padrão for utilizado, executar a migração antes de rodar o projeto.
