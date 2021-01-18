@@ -47,7 +47,7 @@ Aqui será informado o intervalo de tempo que os Leaderboards armazenados na mem
 
 ### Para executar o projeto os seguintes passos deverão ser seguidos:
 - Clone o projeto no link https://github.com/Pinattig/ServerGame/
-- (Execução com o Visual Studio) Abra o Visual Studio, clique em abrir solução e navegue até a pasta que o projeto foi clonado. Seleciona o arquivo ServerGame.sln clique em abrir.
+- (Execução com o Visual Studio) Abra o Visual Studio, clique em abrir solução e navegue até a pasta que o projeto foi clonado. Selecione o arquivo ServerGame.sln e clique em abrir.
 - (Execução pelo console) Abra o console e navegue até a pasta que o projeto foi clonado. Em seguida execute o comando:
  
  ``` dotnet run ```
